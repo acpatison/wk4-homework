@@ -1,0 +1,46 @@
+* {
+    background-color: tan;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.otherOptions {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+button  {
+    background-color: purple;
+    color: white;
+    border: solid 2px black;
+}
+
+button:hover    {
+    background-color: violet;
+    color: black;
+    text-decoration: underline;
+}

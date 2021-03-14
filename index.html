@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Code Quiz</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./highscores.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Code Quiz Challenge</h1>
+            <p class="description">This quiz is to test your skills of javascript and APIs</p>
+            <button id="startBtn">Start Quiz</button>
+        </div>
+        <section>
+            <div class="container">
+                <ol>
+                    <title id="question-title"></title>
+                    <label class="choices" id="choice"></label>
+                    <label class="answers" id="answer"></label>
+                </ol>
+            </div>
+            <div>
+                <ol class="otherOptions">
+                    <title id="timeLeft">Time Remaining</title>
+                    <button id="highscores" src="./highscores.html">View Highscores</button>
+                </ol>
+            </div>
+
+        </section>
+    </body>
+    <script src="./scores.js" class="Scores"></script>
+    <script src="./questions.js"></script>
+    <script src="./logic.js"></script>
+</html>
