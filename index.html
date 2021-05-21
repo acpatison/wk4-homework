@@ -12,26 +12,30 @@
         <div class="header">
             <h1>Code Quiz Challenge</h1>
             <p class="description">This quiz is to test your skills of javascript and APIs</p>
-            <button id="startBtn">Start Quiz</button>
+            <button id="startBtn" class="startBtn">Start Quiz</button>
         </div>
         <section>
             <div class="container">
-                <ol>
-                    <title id="question-title"></title>
-                    <label class="choices" id="choice"></label>
-                    <label class="answers" id="answer"></label>
-                </ol>
+                <h2 id="question-title"></h2>
+                <input type="radio" name="choices" id="choice1" value="0" class="choices">
+                <label id="labelChoice1" for="choice1"></label>
+                <input type="radio" name="choices" id="choice2" value="1" class="choices">
+                <label id="labelChoice2" for="choice2"></label>
+                <input type="radio" name="choices" id="choice3" value="2" class="choices">
+                <label id="labelChoice3" for="choice3"></label>
+                <input type="radio" name="choices" id="choice4" value="3" class="choices">
+                <label id="labelChoice4" for="choice4"></label>
             </div>
+            <div class="rightWrong" id="rightWrong"></div>
+            <div id="currentScore" class="currentScore"></div>
             <div>
-                <ol class="otherOptions">
-                    <title id="timeLeft">Time Remaining</title>
-                    <button id="highscores" src="./highscores.html">View Highscores</button>
-                </ol>
+                <h3 id="timeLeft"></h3>
+                <button id="highScore" class="highScore" href="./highscores.html" >View Highscores</button>
             </div>
 
         </section>
     </body>
-    <script src="./scores.js" class="Scores"></script>
+    <script src="./scores.js"></script>
     <script src="./questions.js"></script>
     <script src="./logic.js"></script>
 </html>

@@ -41,14 +41,23 @@ getTimeLeft = () => {
     timeLeft -= 1;
     // -- put the new number on the screen
     let timeLeft = new timerEl;
-    if(timeLeft === 0) {
-        clearInterval();
-        window.location.href = `./highscores.js`;
-    }
 }
 // -- if number === 0
 // -- -- clear the timer
 
+
+
+
+// const timerEl = setInterval(myTimer, 25000);
+
+// const wrongAnswerTime = () => {
+//     console.log(`WRONG!`);
+//     myTimer = -5;
+// }
+
+// const rightAnswer = () => {
+
+// }
 
 // grab all my elements w/ the class choices
 const radios = document.querySelectorAll('.choices')
@@ -81,3 +90,26 @@ function doTheWork() {
     // -- else
     // do somethin else
 }
+
+// Press Start Button
+
+// Display current question and choices
+
+// Display Timer
+
+// start timer countdown
+
+// User click radio function
+    // FOR LOOP:
+    // If user click = question.answer, then display correct! for 1 second
+        // then proceed to ask next question (i+1)
+
+    // else user click != question.answer, then display wrong for 1 second
+        // Then deduct 5 seconds from timer
+
+        // Then proceed to ask next question (i+1)
+    // Else if timer = 0 
+        // then display high score
+    
+// After question for loop, display high score
+
